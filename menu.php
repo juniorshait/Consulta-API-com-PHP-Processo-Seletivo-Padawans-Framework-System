@@ -38,7 +38,7 @@ if ($nome == "") {
 
         </label>
         <div class="left_area">
-            <a> <img src="image/logo.jpeg" alt="" width="130" /></a>
+            <a href="menu.php"> <img src="image/logo.jpeg" alt="" width="130" /></a>
         </div>
 
     </header>
