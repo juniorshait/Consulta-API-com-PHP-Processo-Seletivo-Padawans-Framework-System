@@ -2,11 +2,11 @@
         margin: 0;
         padding: 0;
         font-family: "Roboto", sans-serif;
-        cursor: url("../cursor/robo.cur"),default;
+        cursor: url("../cursor/sabre.cur"),default;
         
     }
     html{
-        cursor: url("../cursor/robo.cur"),default;
+        cursor: url("../cursor/sabre.cur"),default;
     }
     header {
         z-index: 1;
