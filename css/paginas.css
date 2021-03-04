@@ -1,0 +1,101 @@
+ body{
+    cursor: url("../cursor/robo.cur"),default;
+} 
+.navbar-brand{
+    position: absolute;
+        width: 120px;
+        top: -8px;
+        bottom: 0px;
+        left: 3px;
+}
+
+.navigation {
+    width: 400px;
+}
+
+.mainmenu,
+.submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mainmenu a {
+    display: block;
+    background-color: #2e3338;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.mainmenu a:hover {
+    text-decoration: none;
+    color: white;
+    background-color:  #818d98;
+}
+
+.mainmenu li:hover .submenu {
+    display: block;
+    max-height: 300px;
+}
+
+.submenu a {
+    background-color: #4f5964;
+}
+
+.submenu a:hover {
+    background-color:  #818d98;
+    color:white;
+}
+
+.submenu {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+#minhaTabela {
+    width: 100%;
+    margin: 0 auto;
+    border: 0;
+    box-shadow: 0 5px 30px darkgrey;
+    border-spacing: 0;
+}
+
+#minhaTabela thead th {
+    font-weight: bold;
+    background-color: #282a36;
+    color: white;
+    padding: 5px 10px;
+  
+}
+
+#minhaTabela tr td {
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color:white ;
+    /**importante para não mostrar cursor de texto**/
+}
+
+#minhaTabela tr td:last-child {
+    text-align: right;
+}
+
+/**Cores**/
+
+#minhaTabela tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+/**Cor quando passar por cima**/
+
+#minhaTabela tr:hover td {
+    background-color: #aff7ff;
+}
+
+/**Cor quando selecionado**/
+
+#minhaTabela tr.selecionado td {
+    background-color: #aff7ff;
+}
