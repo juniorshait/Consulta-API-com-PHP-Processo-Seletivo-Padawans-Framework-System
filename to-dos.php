@@ -37,7 +37,7 @@ if ($nome == "") {
 
 <header>
     <nav class="navbar" style="background-color:#282a36;" id="menuHeader">
-        <a class="navbar-brand">
+        <a href="menu.php" class="navbar-brand">
             <img src="image/logo.jpeg" alt="" width="100" />
         </a>
         <div class="container" style="margin-left: 10%;">
